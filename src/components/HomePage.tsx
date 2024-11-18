@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { PlusCircle, KeyRound, Trash2 } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { v4 as uuidv4 } from 'uuid';
+import uuidv4 from 'uuid/dist/v4';
 import toast from 'react-hot-toast';
 
 export default function HomePage() {
